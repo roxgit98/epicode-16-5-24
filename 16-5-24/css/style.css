@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  background-color: #20229b;
+  font-family: "Outfit", sans-serif;
+  color: #ebebeb;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 0;
+  font-size: 64px;
+  font-weight: 900;
+  position: relative;
+  top: 16px;
+  z-index: 1;
+  pointer-events: none;
+  color: rgb(255, 0, 0);
+  padding: 0.5em;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+#tabella {
+  background-color: #01000a;
+  color: #ebebeb;
+  border-radius: 8px;
+  border: 8px solid #0c0b1d;
+}
+
+.numero {
+  display: inline-block;
+  width: 13.6%;
+  height: 106px;
+  position: relative;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.numero:hover {
+  background-color: #8b1010;
+}
+
+.numero h3 {
+  text-align: center;
+  font-size: 26px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+button {
+  cursor: pointer;
+  background-color: #2b539c;
+  color: #efd7f5;
+  border: none;
+  width: 130px;
+  min-height: 36px;
+  font-weight: 700;
+}
+
+#bloccoBottone {
+  text-align: center;
+}
+
+.selezionato {
+  background-color: green;
+}
