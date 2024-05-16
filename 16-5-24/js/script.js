@@ -27,8 +27,6 @@ const creaNumero = (evento) => {
   const listaNumeriRandom = [];
   const bottone = document.getElementById("bottoneEstrai");
   const numeroRandom = Math.floor(Math.random() * 77 - 1);
-  const numeroVisualizzato = document.querySelector("h2");
-  numeroVisualizzato.innerText = numeroRandom;
   if (listaNumeriRandom.includes(numeroRandom)) {
     return creaNumero();
   } else {
